@@ -2418,6 +2418,58 @@ input, select, textarea {
 				width: 2.5em;
 			}
 
+/* Footer Icons */
+
+ul.footer-icons {
+	list-style: none;
+	padding-left: 0;
+	color: #216aa1;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+	ul.footer-icons li a {
+		text-decoration: none;
+		display: inline-block;
+		margin: 0 0 1.6875em 0;
+		padding: 0.35em 0 0 3.5em;
+		position: relative;
+		vertical-align: top;
+		width: 25%;
+	}
+
+		ul.footer-icons li a:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 500;
+		}
+
+		ul.footer-icons li a:before {
+			background: #2c8dd7;
+			border-radius: 100%;
+			color: #ffffff;
+			display: block;
+			height: 2.5em;
+			left: 0;
+			line-height: 2.5em;
+			position: absolute;
+			text-align: center;
+			top: 0;
+			width: 2.5em;
+		}
+		ul.footer-icons li a p{
+			padding-top: 0.2em;
+			font-size: 0.9em;
+			font-family: "Lato", sans-serif;
+		}
+
 /* Icons */
 
 	ul.icons {
@@ -2661,6 +2713,11 @@ input, select, textarea {
 		padding-top: 2.25em;
 	}
 
+	.features article a {
+		font-size: 1.5em;
+		padding-right: 1em;
+	}
+
 		.features article:first-child {
 			border-top: 0;
 			padding-top: 0;
@@ -2769,10 +2826,15 @@ input, select, textarea {
 			left: 0;
 			padding: 2em;
 			width: 100%;
+			font-size: 1.4em;
 		}
 
 			#header > footer .icons {
 				margin: 0;
+			}
+
+			#header > footer p {
+				font-size: 0.5em;
 			}
 
 				#header > footer .icons li a {
